@@ -1,7 +1,7 @@
 # TIM
 Presentation du programme de techniques d'intégration multimédia à Montmorency
 
-<iframe width="90%" height="500" src="https://www.youtube.com/embed/ABWCq8j8qys?si=U5u7Uobr_x_0VdUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="90%" height="500" src="https://www.youtube.com/embed/ABWCq8j8qys?rel=0&si=U5u7Uobr_x_0VdUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Esprit du programme
 
@@ -11,7 +11,7 @@ Presentation du programme de techniques d'intégration multimédia à Montmorenc
 
 # Nos étudiantes et étudiants
 
-<iframe width="90%" height="500" src="https://www.youtube.com/embed/otEUz0gCL7g" title="Entrevues étudiantes - Techniques d&#39;intégration multimédia (octobre 2020)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="90%" height="500" src="https://www.youtube.com/embed/otEUz0gCL7g?rel=0" title="Entrevues étudiantes - Techniques d&#39;intégration multimédia (octobre 2020)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 # Les grandes lignes 
@@ -112,5 +112,5 @@ tu dois aller à l'université pour étudier dans la spécialité qui t'intéres
 * Stage: production web en entreprise
   
 
-[![](./_medias/logo_tim-transparent.png)](tim-montmorency.com) 
+[![](./_medias/logo_tim-transparent.png)](https://tim-montmorency.com) 
 
