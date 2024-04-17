@@ -8,6 +8,8 @@ Presentation du programme de techniques d'intégration multimédia à Montmorenc
 * Petits groupes
 * Enseignement personnalisé
 * Ambiance familiale
+* Axe installations interactives
+* La ruche (Tutorat)
 
 # Nos étudiantes et étudiants
 
@@ -34,6 +36,8 @@ Presentation du programme de techniques d'intégration multimédia à Montmorenc
 * 2D
 * Conception audiovisuelle
 * Nouvelles technologies
+* Web
+* Publicité
 
 
 
@@ -65,7 +69,24 @@ Presentation du programme de techniques d'intégration multimédia à Montmorenc
 
 ## Équipement à la fine pointe
 
-* 
+* Réalité mixte
+
+  # Épreuve synthèse de programme
+
+* Expérience multimédia interactive
+  * [Crescentia](https://tim-montmorency.com/2024/)
+  * [Mycélium](https://tim-montmorency.com/2023/)
+  * [Moebius](https://tim-montmorency.com/2022/)
+  * [Pandèmes](https://tim-montmorency.com/2021/)
+* Stage: production web en entreprise
+
+# Les milieux de travail
+* Entreprise de multimédia
+* Média électronique
+* Milieu artistique
+* Organisme culturel
+* Studio de production
+* Travail autonome
 
 # Les métiers
 
@@ -102,14 +123,7 @@ tu dois aller à l'université pour étudier dans la spécialité qui t'intéres
 * Salaire moyen : 28 $ / h
 * Moyenne admission : 70 %
 
-# Épreuve synthèse de programme
 
-* Expérience multimédia interactive
-  * [Crescentia](https://tim-montmorency.com/2024/)
-  * [Mycélium](https://tim-montmorency.com/2023/)
-  * [Moebius](https://tim-montmorency.com/2022/)
-  * [Pandèmes](https://tim-montmorency.com/2021/)
-* Stage: production web en entreprise
   
 
 [![](./_medias/logo_tim-transparent.png)](https://tim-montmorency.com) 
