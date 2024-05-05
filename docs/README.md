@@ -112,6 +112,9 @@ Presentation du programme de techniques d'intégration multimédia à Montmorenc
 * Développeur web
 * Animateur 2d  
 
+<div data-include="_medias/portes-ouvertes-2024/metiers/index.html"></div>
+
+
 # Travailler en jeu vidéo ?
 
 ## OUI mais...

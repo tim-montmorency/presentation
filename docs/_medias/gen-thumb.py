@@ -6,7 +6,7 @@ def create_thumbnail(image_path, thumb_path):
     """Generates a thumbnail for an image using FFmpeg."""
     cmd = [
         'ffmpeg', '-i', image_path,
-        '-vf', 'scale=w=min(iw\\,375):h=min(ih\\,375):force_original_aspect_ratio=decrease',
+        '-vf', 'scale=w=min(iw\\,500):h=min(ih\\,500):force_original_aspect_ratio=decrease',
         '-qscale:v', '2',  # Quality scale for JPEG and WebP
         thumb_path
     ]
@@ -61,7 +61,7 @@ def process_directory(directory, recursive, dryrun):
         extension = os.path.splitext(filename)[1].lower()
         if extension in image_extensions and not filename.startswith("thumb"):
             full_image_path = os.path.join(directory, filename)
-            thumb_filename = f"thumb-375-{filename}"
+            thumb_filename = f"thumb-500-{filename}"
             thumb_path = os.path.join(directory, thumb_filename)
 
             if not dryrun:
