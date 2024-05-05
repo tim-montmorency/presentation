@@ -69,6 +69,9 @@ def process_directory(directory, recursive, dryrun):
                     create_thumbnail(full_image_path, thumb_path)
             images.append((full_image_path, thumb_path))
     
+    # Sort images by filename to ensure they appear in alphabetical order
+    images.sort(key=lambda x: os.path.basename(x[0]))
+
     if not dryrun:
         create_html(directory, images)
     else:
