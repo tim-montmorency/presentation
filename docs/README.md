@@ -11,6 +11,10 @@ Presentation du programme de techniques d'intégration multimédia à Montmorenc
 * Axe installations interactives
 * La ruche (Tutorat)
 
+
+<div data-include="_medias/portes-ouvertes-2024/esprit/index.html"></div>
+
+
 # Nos étudiantes et étudiants
 
 <iframe width="90%" height="500" src="https://www.youtube.com/embed/otEUz0gCL7g?rel=0" title="Entrevues étudiantes - Techniques d&#39;intégration multimédia (octobre 2020)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -39,6 +43,7 @@ Presentation du programme de techniques d'intégration multimédia à Montmorenc
 * Web
 * Publicité
 
+<div data-include="_medias/portes-ouvertes-2024/pour_qui/index.html"></div>
 
 
 # On fait quoi en TIM ?
@@ -62,7 +67,7 @@ Presentation du programme de techniques d'intégration multimédia à Montmorenc
 
 ## Laboratoires informatique performants
 
-![](./_medias/laboratoires.png)
+![](./_medias/laboratoires.jpg)
 
 * 3 Laboratoires de 26 postes performants
 
@@ -70,8 +75,16 @@ Presentation du programme de techniques d'intégration multimédia à Montmorenc
 ## Équipement à la fine pointe
 
 * Réalité mixte
+* Réalité virtuelle
+* Audio
+* Vidéo
+* Éclairage
+* Électronique
 
-  # Épreuve synthèse de programme
+<div data-include="_medias/portes-ouvertes-2024/equipement/index.html"></div>
+
+
+# Épreuve synthèse de programme
 
 * Expérience multimédia interactive
   * [Crescentia](https://tim-montmorency.com/2024/)

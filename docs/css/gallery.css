@@ -1,0 +1,35 @@
+/* gallery.css */
+#lightgallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    margin: 0 auto;
+    max-width: 1200px; /* Adjust based on your layout preference */
+}
+
+#lightgallery a {
+    flex: 1 1 200px; /* Flexibility, starting at 200px */
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+    border-radius: 4px; /* Optional for rounded corners */
+    overflow: hidden; /* Ensures images do not spill out of their anchor tags */
+}
+
+#lightgallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease-in-out; /* Smooth transition for scaling on hover */
+}
+
+#lightgallery a:hover {
+    transform: scale(1.05); /* Slight zoom on hover to indicate interactivity */
+}
+
+@media (max-width: 800px) {
+    #lightgallery a {
+        flex-basis: 100%; /* Full width on smaller screens */
+    }
+}

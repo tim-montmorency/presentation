@@ -9,8 +9,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <!-- DOCSIFY CSS -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- Markdown theme TIM DARK CSS -->
   <link rel="stylesheet" href="./css/tim-dark.css"> 
+  <!-- LightGallery CSS -->
+  <link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/npm/lightgallery.js/dist/css/lightgallery.min.css" />
+  <!--    LightGallery CSS local --> 
+  <link rel="stylesheet" href="./css/gallery.css"> 
 </head>
 <body class="close">
   <div id="app"></div>
@@ -18,10 +24,51 @@
     window.$docsify = {
       coverpage: true,
       name: "",
-      repo: ''
+      repo: '',
+      search: 'auto',
+      plugins: [
+      function(hook, vm) {
+      hook.doneEach(function() {
+        var includes = document.querySelectorAll('[data-include]');
+        includes.forEach(function(include) {
+          var src = include.getAttribute('data-include');
+          fetch(src).then(function(response) {
+            return response.text();
+          }).then(function(html) {
+            var template = document.createElement('template');
+            template.innerHTML = html;
+            var basePath = new URL(src, window.location.href).href;
+            basePath = basePath.substring(0, basePath.lastIndexOf('/') + 1);
+
+            ['href', 'src'].forEach(attr => {
+              template.content.querySelectorAll(`[${attr}]`).forEach(el => {
+                var originalPath = el.getAttribute(attr);
+                if (originalPath && !originalPath.startsWith('http') && !originalPath.startsWith('//')) {
+                  if (originalPath.startsWith('/')) {
+                    el.setAttribute(attr, new URL(originalPath, window.location.origin).href);
+                  } else {
+                    el.setAttribute(attr, new URL(originalPath, basePath).href);
+                  }
+                }
+              });
+            });
+
+            include.innerHTML = template.innerHTML;
+            if (window.lightGallery) {
+              lightGallery(include, { selector: 'a' });
+            }
+          }).catch(function(err) {
+            include.innerHTML = 'Failed to load content: ' + src;
+          });
+        });
+      });
     }
-  </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  ]
+};
+</script>
+  <!-- Docsify Library -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <!-- LightGallery and jQuery -->
+  <script src="//cdn.jsdelivr.net/npm/lightgallery.js/dist/js/lightgallery.min.js"></script>
 </body>
 </html>
