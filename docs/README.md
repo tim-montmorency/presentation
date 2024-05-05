@@ -140,6 +140,9 @@ tu dois aller à l'université pour étudier dans la spécialité qui t'intéres
 * Moyenne admission : 70 %
 
 
+# Médias
+
+* [Portes ouvertes 2024](./_medias/portes-ouvertes-2024/)
   
 
 [![](./_medias/logo_tim-transparent.png)](https://tim-montmorency.com) 
