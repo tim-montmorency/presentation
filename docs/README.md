@@ -1,4 +1,4 @@
-# TIM
+# TIM Montmorency
 Presentation du programme de techniques d'intégration multimédia à Montmorency
 
 <iframe width="90%" height="500" src="https://www.youtube.com/embed/ABWCq8j8qys?rel=0&si=U5u7Uobr_x_0VdUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -13,6 +13,11 @@ Presentation du programme de techniques d'intégration multimédia à Montmorenc
 
 
 <div data-include="_medias/portes-ouvertes-2024/esprit/index.html"></div>
+
+| ![](./_medias/portes-ouvertes-2024/_album/album-2.jpg) | ![](./_medias/portes-ouvertes-2024/_album/album-5.jpg) | ![](./_medias/portes-ouvertes-2024/_album/album-4.jpg) |
+|-|-|-|
+
+
 
 
 # Nos étudiantes et étudiants
@@ -43,7 +48,10 @@ Presentation du programme de techniques d'intégration multimédia à Montmorenc
 * Web
 * Publicité
 
-<div data-include="_medias/portes-ouvertes-2024/pour_qui/index.html"></div>
+| ![](./_medias/portes-ouvertes-2024/_album/album-3.jpg) | ![](./_medias/portes-ouvertes-2024/_album/album-15.jpg) | ![](./_medias/portes-ouvertes-2024/_album/album-6.jpg) |
+|-|-|-|
+
+
 
 
 # On fait quoi en TIM ?
@@ -81,7 +89,11 @@ Presentation du programme de techniques d'intégration multimédia à Montmorenc
 * Éclairage
 * Électronique
 
-<div data-include="_medias/portes-ouvertes-2024/equipement/index.html"></div>
+| ![](./_medias/portes-ouvertes-2024/_album/album-11.jpg) | ![](./_medias/portes-ouvertes-2024/_album/album-13.jpg) | ![](./_medias/portes-ouvertes-2024/_album/album-12.jpg) |
+|-|-|-|
+
+
+
 
 
 # Épreuve synthèse de programme
@@ -112,7 +124,9 @@ Presentation du programme de techniques d'intégration multimédia à Montmorenc
 * Développeur web
 * Animateur 2d  
 
-<div data-include="_medias/portes-ouvertes-2024/metiers/index.html"></div>
+| ![](./_medias/portes-ouvertes-2024/_album/album-1.jpg) | ![](./_medias/portes-ouvertes-2024/_album/album-8.jpg) | ![](./_medias/portes-ouvertes-2024/_album/album-17.jpg) |
+|-|-|-|
+
 
 
 # Travailler en jeu vidéo ?
@@ -140,10 +154,10 @@ tu dois aller à l'université pour étudier dans la spécialité qui t'intéres
 * Moyenne admission : 70 %
 
 
-# Médias
+# Références
 
-* [Portes ouvertes 2024](./_medias/portes-ouvertes-2024/)
-  
+* [Collège Montmorency - Techniques d'intégration multimédia 582.A1](https://www.cmontmorency.qc.ca/programmes/nos-programmes-detudes/techniques/techniques-dintegration-multimedia/description-du-programme/)
 
-[![](./_medias/logo_tim-transparent.png)](https://tim-montmorency.com) 
+* [TIM-Montmorency https://tim-montmorency.com/](https://tim-montmorency.com/)
 
+* [Presentation de TIM-Montmorency https://tim-montmorency.com/](https://tim-montmorency.com/presentation)

@@ -30,65 +30,89 @@
 
 
   <!-- DOCSIFY CSS -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <!-- Markdown theme TIM DARK CSS -->
-  <link rel="stylesheet" href="./css/tim-dark.css"> 
-  <!-- LightGallery CSS -->
-  <link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/npm/lightgallery.js/dist/css/lightgallery.min.css" />
-  <!--    LightGallery CSS local --> 
-  <link rel="stylesheet" href="./css/gallery.css"> 
+  <link rel="stylesheet" href="https://gllmar.github.io/docsify-simple-style/docsify-simple-style.css">  <!-- Markdown theme TIM DARK CSS -->
+  <!-- Lightbox CSS -->
+  <link rel="stylesheet" href="https://gllmar.github.io/docsify-lightbox/docsify-lightbox.css">
+    <!-- Custom Styles -->
+    <style>
+      :root {
+        --theme-hue: 2;
+        
+        /* Override light theme colors with dark theme colors */
+        --theme-background: #1e1e1e;
+        --theme-text: #e0e0e0;
+        --theme-border: rgba(255, 255, 255, 0.1);
+        --theme-bold-text: #ffffff;
+        --code-background: #2d2d2d;
+        --code-text: #cccccc;
+        --sidebar-background: #2e2e2e;
+        --sidebar-text: #cccccc;
+      }
+    
+      /* Set the cover page gradient color */
+      .cover {
+        background: linear-gradient(135deg, #8b0000, #000000); /* Dark red to black gradient */
+        background-size: cover;
+      }
+      section.cover.show {
+    background: linear-gradient(to left top, #9e0000 0%, #000000 60%, #8f0000 100%) !important;
+    display: flex;
+  }
+    </style>
+  <script>document.documentElement.style.setProperty('color-scheme', 'dark');</script>
+
 </head>
-<body class="close">
+<body>
   <div id="app"></div>
   <script>
     window.$docsify = {
       coverpage: true,
-      name: "",
-      repo: '',
+      name: "Techniques d'intégration multimédia",
+      repo: 'https://github.com/tim-montmorency/presentation',
       search: 'auto',
-      plugins: [
-      function(hook, vm) {
-      hook.doneEach(function() {
-        var includes = document.querySelectorAll('[data-include]');
-        includes.forEach(function(include) {
-          var src = include.getAttribute('data-include');
-          fetch(src).then(function(response) {
-            return response.text();
-          }).then(function(html) {
-            var template = document.createElement('template');
-            template.innerHTML = html;
-            var basePath = new URL(src, window.location.href).href;
-            basePath = basePath.substring(0, basePath.lastIndexOf('/') + 1);
-
-            ['href', 'src'].forEach(attr => {
-              template.content.querySelectorAll(`[${attr}]`).forEach(el => {
-                var originalPath = el.getAttribute(attr);
-                if (originalPath && !originalPath.startsWith('http') && !originalPath.startsWith('//')) {
-                  if (originalPath.startsWith('/')) {
-                    el.setAttribute(attr, new URL(originalPath, window.location.origin).href);
-                  } else {
-                    el.setAttribute(attr, new URL(originalPath, basePath).href);
-                  }
+      auto2top: true,
+            loadSidebar: false,      // Enable sidebar loading
+            subMaxLevel: 4,         // Adjust the level to include in TOC
+            relativePath: true,     // relative path enable
+            plugins: [
+                // Lightbox plugin
+                function (hook, vm) {
+                    hook.doneEach(() => {
+                        import('https://gllmar.github.io/docsify-lightbox/docsify-lightbox.js').then(module => {
+                            const images = document.querySelectorAll('img');
+                            const lightbox = new module.default();
+                            lightbox.initialize(images);
+                        }).catch(err => console.error('Failed to load Lightbox plugin', err));
+                    });
+                },
+                // WaveSurfer plugin
+                function (hook, vm) {
+                    hook.doneEach(() => {
+                        import('https://gllmar.github.io/docsify-wavesurfer-plugin/docsify-wavesurfer-plugin.js').then(module => {
+                            module.initWaveSurfer();
+                        }).catch(err => console.error('Failed to load WaveSurfer plugin', err));
+                    });
                 }
-              });
-            });
+            ]
+        };
 
-            include.innerHTML = template.innerHTML;
-            if (window.lightGallery) {
-              lightGallery(include, { selector: 'a' });
-            }
-          }).catch(function(err) {
-            include.innerHTML = 'Failed to load content: ' + src;
-          });
-        });
-      });
-    }
-  ]
-};
 </script>
   <!-- Docsify Library -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-  <!-- LightGallery and jQuery -->
-  <script src="//cdn.jsdelivr.net/npm/lightgallery.js/dist/js/lightgallery.min.js"></script>
+    <!-- Import Mermaid -->
+    <script type="module">
+      import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+      mermaid.initialize({ 
+          startOnLoad: true,
+          theme: "neutral"
+      });
+      window.mermaid = mermaid;
+  </script>
+  <script src="//unpkg.com/docsify-mermaid@2.0.1/dist/docsify-mermaid.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <script src="https://gllmar.github.io/docsify-unhashtaglink/docsify-unhashtaglink.js"></script>
+  <script src="https://gllmar.github.io/docsify-alert/docsify-alerts.js"></script>
+  <script src="https://gllmar.github.io/docsify-repo-toolbar/docsify-repo-toolbar.js"></script>
 </body>
 </html>
