@@ -1,5 +1,5 @@
 # TIM Montmorency
-Presentation du programme de techniques d'intégration multimédia à Montmorency
+Présentation du programme techniques d'intégration multimédia au Collège Montmorency
 
 <iframe width="90%" height="500" src="https://www.youtube.com/embed/ABWCq8j8qys?rel=0&si=U5u7Uobr_x_0VdUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
