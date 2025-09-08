@@ -96,15 +96,18 @@ Présentation du programme techniques d'intégration multimédia au Collège Mon
 
 
 
-# Épreuve synthèse de programme
 
+# Projets de fin d'étude
 * Expérience multimédia interactive
   * [Résonnance](https://tim-montmorency.com/2025/)
   * [Crescentia](https://tim-montmorency.com/2024/)
   * [Mycélium](https://tim-montmorency.com/2023/)
   * [Moebius](https://tim-montmorency.com/2022/)
   * [Pandèmes](https://tim-montmorency.com/2021/)
-* Stage: production web en entreprise
+
+# Épreuve synthèse de programme
+* Stage: production multimédia en entreprise
+  
 
 # Les milieux de travail
 * Entreprise de multimédia
