@@ -99,6 +99,7 @@ Présentation du programme techniques d'intégration multimédia au Collège Mon
 # Épreuve synthèse de programme
 
 * Expérience multimédia interactive
+  * [Résonnance](https://tim-montmorency.com/2025/)
   * [Crescentia](https://tim-montmorency.com/2024/)
   * [Mycélium](https://tim-montmorency.com/2023/)
   * [Moebius](https://tim-montmorency.com/2022/)
