@@ -154,6 +154,10 @@ tu dois aller à l'université pour étudier dans la spécialité qui t'intéres
 * Salaire moyen : 28 $ / h
 * Moyenne admission : 70 %
 
+# Accéder à la présentation
+![](./_medias/codeQRTim.jpeg)
+
+
 # Photos
 
 * [Portes ouvertes 2024](/_medias/portes-ouvertes-2024/_album/)
