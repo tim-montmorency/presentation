@@ -107,6 +107,7 @@ Présentation du programme techniques d'intégration multimédia au Collège Mon
 
 # Épreuve synthèse de programme
 * Stage: production multimédia en entreprise
+![](./_medias/LieuxStages.jpg)
   
 
 # Les milieux de travail
