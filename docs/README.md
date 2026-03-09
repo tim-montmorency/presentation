@@ -1,4 +1,7 @@
 # TIM Montmorency
+
+Un programme ou on crée des éléments visuels et des sons afin de les intégrer dans des produits interactifs innovants.​
+
 Présentation du programme techniques d'intégration multimédia au Collège Montmorency
 
 <iframe width="90%" height="500" src="https://www.youtube.com/embed/ABWCq8j8qys?rel=0&si=U5u7Uobr_x_0VdUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -63,6 +66,10 @@ Présentation du programme techniques d'intégration multimédia au Collège Mon
 * Jeu interactif
 * Vidéo
 * Conception sonore
+* Conception - Création - Programmation - Réalisation
+
+# Grille de cours
+[Grille de cours](https://www.cmontmorency.qc.ca/programmes/nos-programmes-detudes/techniques/techniques-dintegration-multimedia/grille-de-cours/)
 
 # Pourquoi Montmorency à Laval ?
 
@@ -88,6 +95,7 @@ Présentation du programme techniques d'intégration multimédia au Collège Mon
 * Vidéo
 * Éclairage
 * Électronique
+* [Découvrir l'équipement](https://tim-montmorency.com/#installations)
 
 | ![](./_medias/portes-ouvertes-2024/_album/album-11.jpg) | ![](./_medias/portes-ouvertes-2024/_album/album-13.jpg) | ![](./_medias/portes-ouvertes-2024/_album/album-12.jpg) |
 |-|-|-|
@@ -96,9 +104,8 @@ Présentation du programme techniques d'intégration multimédia au Collège Mon
 
 
 
-
 # Projets de fin d'étude
-* Expérience multimédia interactive
+* Cliquez sur les liens pour découvrir les expériences multimédia interactives des finissants: 
   * [Résonnance](https://tim-montmorency.com/2025/)
   * [Crescentia](https://tim-montmorency.com/2024/)
   * [Mycélium](https://tim-montmorency.com/2023/)
@@ -108,6 +115,15 @@ Présentation du programme techniques d'intégration multimédia au Collège Mon
 # Épreuve synthèse de programme
 * Stage: production multimédia en entreprise
 ![](./_medias/LieuxStages.jpg)
+
+# Les attitudes professionnelles
+* Autonomie
+* Créativité
+* Sens esthétique
+* Adaptation
+* Esprit d'équipe
+* Rigueur
+* Débrouillardise
   
 
 # Les milieux de travail
