@@ -62,13 +62,14 @@ Présentation du programme techniques d'intégration multimédia au Collège Mon
 * Animation 2D-3D
 * Web
 * Programmation
-* Installation
+* Installation 
 * Jeu interactif
+* Réalité mixte
 * Vidéo
+* Design graphique
 * Conception sonore
 * Conception - Création - Programmation - Réalisation
 
-# Grille de cours
 [Grille de cours](https://www.cmontmorency.qc.ca/programmes/nos-programmes-detudes/techniques/techniques-dintegration-multimedia/grille-de-cours/)
 
 # Pourquoi Montmorency à Laval ?
