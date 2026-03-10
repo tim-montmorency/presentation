@@ -1,6 +1,6 @@
 # TIM Montmorency
 
-Un programme ou on crée des éléments visuels et des sons afin de les intégrer dans des produits interactifs innovants.​
+Un programme où on crée des éléments visuels et des sons afin de les intégrer dans des produits interactifs innovants.​
 
 Présentation du programme techniques d'intégration multimédia au Collège Montmorency
 
